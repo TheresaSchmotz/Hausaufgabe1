@@ -4,96 +4,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SixteenButtons">
+    tools:context="SixteenButtons">
 
     <ScrollView
-     android:layout_width="368dp"
-     android:layout_height="495dp"
-     tools:layout_editor_absoluteY="8dp"
-     tools:layout_editor_absoluteX="8dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:orientation="vertical"
-            android:textStyle="bold">
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:padding="10dp"
-            android:text="BUTTON 1" />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="BUTTON 1" />
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:text="BUTTON 2" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 3" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 4" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 5" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 6" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 7" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 8" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 9" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 10" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 11" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 12" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 13" />
-            <Button
-             android:layout_width="fill_parent"
-             android:layout_height="fill_parent"
-             android:text="BUTTON 14" />
-            <Button
-             android:layout_width="fill_parent"
-             android:layout_height="fill_parent"
-             android:text="BUTTON 15" />
-            <Button
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="BUTTON 16" />
-
-
-
-
+            android:textStyle="bold"
+            android:id="@+id/sixteenLayout">
 
         </LinearLayout>
-        </ScrollView>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+<!--  <Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 1" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 2" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 3" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 4" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 5" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 6" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 7" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 8" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 9" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 10" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 11" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 12" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 13" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 14" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 15" />
+
+<Button
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="BUTTON 16" />
+
+-->
